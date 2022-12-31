@@ -44,7 +44,7 @@ class _BatchState extends State<Batch> {
               width: 498,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20.0),
-                color: Colors.greenAccent
+                color: Colors.purple.shade50
               ),
               child:Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -123,14 +123,11 @@ class _BatchState extends State<Batch> {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(17),
-                    child: Container(
+                    child: SizedBox(
                       height:204,
                       width: 314,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Color(0xFFFFFFFF)
-                      ),
-                      child: Image.asset("assets/image/profile_img.png",fit:BoxFit.cover ,)
+                     
+                      child: Image.asset("assets/image/batch.png",fit:BoxFit.cover ,)
                     ),
                   ),
                   Row(

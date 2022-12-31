@@ -46,7 +46,7 @@ class _PaymentState extends State<Payment> {
                   width:1000,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(9),
-                      color: Color(0xff4A164B)
+                      color: Colors.purple.shade50
                   ),
                 ),
               ),
@@ -57,7 +57,7 @@ class _PaymentState extends State<Payment> {
                   style: TextStyle(
                       fontWeight: FontWeight.w400,
                       fontSize:16,
-                      color: Colors.white),
+                      color: Color(0xff4A164B)),
                 ),
               ),
 
@@ -72,7 +72,7 @@ class _PaymentState extends State<Payment> {
                   width:1000,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(9),
-                      color: Colors.grey
+                      color: Colors.purple.shade50
                   ),
                 ),
               ),
@@ -81,7 +81,7 @@ class _PaymentState extends State<Payment> {
                  child: Container(
                      height:47,
                      width: 47,
-                     child: Image.asset("assets/image/profile_img.png")),
+                     child: Image.asset("assets/image/referal.png")),
                ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 79,vertical: 28),
@@ -90,7 +90,7 @@ class _PaymentState extends State<Payment> {
                   style: TextStyle(
                       fontWeight: FontWeight.w400,
                       fontSize:18,
-                      color: Colors.white),
+                      color: Colors.purple.shade100),
                 ),
               ),
 
@@ -127,7 +127,7 @@ class _PaymentState extends State<Payment> {
                         "Debit/ Credit card",
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
-                            fontSize: 15,
+                            fontSize: 16,
                             color: Color(0xFFFFC107)),
                       ),
                     ),

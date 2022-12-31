@@ -3,7 +3,7 @@ import 'package:princeton_hive/presentation/layouts/check_batch.dart';
 import 'package:princeton_hive/presentation/layouts/create_activity_page.dart';
 import 'package:princeton_hive/presentation/layouts/create_profie_page.dart';
 import 'package:princeton_hive/presentation/layouts/dashboard.dart';
-import 'package:princeton_hive/presentation/layouts/event_gkim.dart';
+import 'package:princeton_hive/presentation/layouts/event_glim.dart';
 import 'package:princeton_hive/presentation/layouts/forgot_password.dart';
 import 'package:princeton_hive/presentation/layouts/how_it_works_page.dart';
 import 'package:princeton_hive/presentation/layouts/looking_for_page.dart';
@@ -15,7 +15,7 @@ import 'package:princeton_hive/presentation/layouts/signin_page.dart';
 import 'package:princeton_hive/presentation/layouts/journey_page.dart';
 import 'package:princeton_hive/presentation/layouts/splash_screen.dart';
 
-import '../presentation/layouts/activities.dart';
+import '../presentation/layouts/activity_page.dart';
 import '../presentation/layouts/payment.dart';
 import '../presentation/layouts/result.dart';
 

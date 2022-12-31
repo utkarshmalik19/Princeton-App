@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:princeton_hive/presentation/layouts/activities.dart';
+import 'package:princeton_hive/presentation/layouts/activity_page.dart';
 
 class CreateActivity extends StatefulWidget {
   const CreateActivity({Key? key}) : super(key: key);

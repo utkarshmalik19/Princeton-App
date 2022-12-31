@@ -81,15 +81,12 @@ class _ResultState extends State<Result> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 24,vertical: 14),
-                      child: Container(
-                        height:52,
-                        width: 57,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF0BC15),
-                          borderRadius: BorderRadius.circular(10),
-
-                        ),
+                      padding: const EdgeInsets.symmetric(horizontal: 14,vertical: 14),
+                      child: SizedBox(
+                        child: Image.asset("assets/image/result.png"),
+                        height:70,
+                        width: 70,
+                       
                       ),
                     ),
                     Column(

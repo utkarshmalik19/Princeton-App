@@ -34,7 +34,7 @@ class _MentorState extends State<Mentor> {
               width:354,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(7.0),
-                color: Color(0xFFA89CFF),
+                color: Colors.grey,
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -98,6 +98,7 @@ class _MentorState extends State<Mentor> {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal:8,vertical: 7),
                       child: Container(
+                        child: Image.asset("assets/image/bee.png"),
                         height:52,
                         width: 57,
                         decoration: BoxDecoration(
@@ -123,7 +124,7 @@ class _MentorState extends State<Mentor> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            "Give decoration to Container and Boxdecoration. ",
+                            "Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. ",
                             style: TextStyle(
                                 fontWeight: FontWeight.w400,
                                 fontSize:12,

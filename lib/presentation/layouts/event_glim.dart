@@ -44,14 +44,14 @@ class _GlimState extends State<Glim> {
                 Container(
     height: 173,
                  width: 170,
-                 child: Image.asset("assets/image/profile_img.png")),
+                 child: Image.asset("assets/image/event.png")),
                 SizedBox(
                     width :11
                 ),
                 Container(
                     height: 173,
                     width: 170,
-                    child: Image.asset("assets/image/profile_img.png")),
+                    child: Image.asset("assets/image/event.png")),
               ],
             ),
           ),
@@ -144,6 +144,7 @@ class _GlimState extends State<Glim> {
                                 color: Color(0xff4A164B)),
                           ),
                         ),
+                        Text("Lorem Ipsum is simply dummy text \nof the printing and typesetting industry. \nLorem Ipsum has been the industry's",style: TextStyle(fontSize: 12),)
                       ],
                     ),
                   ],
