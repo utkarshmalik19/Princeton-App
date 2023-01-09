@@ -119,10 +119,11 @@ class SignInPage extends StatelessWidget {
                       ),
                       FloatingActionButton(
                         onPressed: () {
-                         Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const RecordingScreen()),
-  );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const RecordingScreen()),
+                          );
                         },
                         child: Text("Test"),
                       )
