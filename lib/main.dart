@@ -38,7 +38,7 @@ class RecordingScreen extends StatefulWidget {
 
 class _RecordingScreenState extends State<RecordingScreen> {
   late CameraController controller;
-
+ bool switchb =false;
   @override
   void initState() {
     super.initState();
@@ -66,12 +66,24 @@ class _RecordingScreenState extends State<RecordingScreen> {
     return Scaffold(
           body: Stack(children: [
         CameraPreview(controller),
+        // Padding(
+        //   padding: const EdgeInsets.only(top: 588, left: 158),
+        //   child: CircleAvatar(
+        //     backgroundColor: switchb==false?Colors.transparent:Color(0xFFD50000),
+        //     radius: 40,
+        //   ),
+        // ),
         Padding(
           padding: const EdgeInsets.only(top: 600, left: 170),
           child: FloatingActionButton(
               onPressed: () {
-                
-              }, backgroundColor: Colors.red),
+                setState(() {
+                  if(switchb == false)
+                  switchb = true;
+                  else
+                    switchb = false;
+                });
+              }, backgroundColor: switchb==false?Color(0xFFD50000):Color(0xFFFF8A80)),
         )
       ]));
   }
